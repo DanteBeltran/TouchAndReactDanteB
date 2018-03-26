@@ -45,6 +45,10 @@ textObject.isVisible = false
 -- load sounds
 local correctAnswer =audio.loadSound("Sound Effects/Correct Answer Sound Effect.mp3")
 local wrongAnswer =audio.loadSound("Sound Effects/Wrong Buzzer Sound Effect.mp3")
+local backgroundMusic = audio.loadSound("Sounds/Background Music.mp3")
+
+--play background music
+audio.play(backgroundMusic)
 
 -- Function: BlueButtonListener
 -- Input: touch listener
